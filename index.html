@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>National Botathon 2020</title>
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/mladenplavsic/bootstrap-navbar-sidebar/3bd282bd/docs/navbar-fixed-right.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/mladenplavsic/bootstrap-navbar-sidebar/3bd282bd/docs/navbar-fixed-left.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/mladenplavsic/bootstrap-navbar-sidebar/3bd282bd/docs/docs.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/mladenplavsic/bootstrap-navbar-sidebar/3bd282bd/docs/docs.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://use.typekit.net/zbn7mat.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-left" style="background-color: #141029">
+    <div class="container">
+      <div class="navbar-header text-center">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand " href="#"><p class="text-center" style="color: whitesmoke;">Bot<img width="30px" height="30px"  src="images/logo.png">thon</p></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse text-center">
+        <ul class="nav navbar-nav">
+          <li><a style="padding: 10px;" href="#home"><h6>Home</h6></a></li>
+          <li><a style="padding: 10px;" href="#abouttitle"><h6>About RPA</h6></a></li>
+          <li><a style="padding: 10px;" href="#announcement"><h6>Awards to be won</h6></a></li>
+          <li><a style="padding: 10px;" href="#faq"><h6>FAQ</h6></a></li>
+          <li><a style="padding: 10px;" href="#registertitle"><h6>Register Here</h6></a></li>
+          <li><a style="padding: 10px;" href="#agenda"><h6>Agenda</h6></a></li>
+          <li><a style="padding: 10px;" href="#News"><h6>Announcements</h6></a></li>
+          <li><a style="padding: 10px;" href="#"><h6>Contact</h6></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <div class="starter">
+    <br>
+    <br>
+    <h2 class="text-center" style="color:whitesmoke; margin-bottom: 50px;" id="home">National Bot<img width="50px" height="50px" src="images/logo.png">thon2020</h2>
+    <br>
+    <h3 class="text-center" style="color: lightgray; ">Join us for India’s Biggest Botathon</h3>
+    <br>
+    <br>
+    <h2 class="text-center" style="color: white; font-size: 25px;">Organized By</h2>
+    <br>
+    <div class="container" style="margin-bottom: -23px;">
+      <div class="row" id="logo-container">
+        <div class="col-sm-4 col-xs-12 text-center" id="logo">
+          <img class="logo" src="images/s2.png" style="background-color: whitesmoke;border-radius: 10px;padding: 15px;" alt="future_Skills_logo">
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center" id="logo" >
+          <img class="logo" src="images/s3.png" style="background-color: whitesmoke;border-radius: 10px;padding: 1px;">
+        </div>
+        <div class="col-sm-4 col-xs-12 text-center" id="logo">
+          <img  class="logo"src="images/s1.png" alt="examly_logo" style="background-color: whitesmoke;border-radius: 10px;padding: 15px;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about" id="about" style="background-color: wheat;">
+    <br>
+    <br>
+    <!-- <h2 class="text-center" id="abouttitle">About Botathon</h2> -->
+    <br>
+    <div class="container">
+      <!-- <h5 class="content text-center" style="color: #141029">A Botathon is a meeting ground for student bot enthusiasts using Automation Anywhere platform. Put your bot-building skills to the test and compete in virtual and in-person bot-building events. Achieve bot greatness! Create bots to solve problems and change the world. Play to win–and to learn from your fellow bot compatriots. - and to learn from your fellow bot compatriots.</h5> -->
+      <h2 class="text-center" id="abouttitle" style="color: black; text-align: center;">About RPA</h2>
+    </div>
+    <div class="container text-center">
+      <div class="content" style="background-color: wheat;background-size: cover; ">
+        <ul style="list-style: none;">
+          <li>
+            <h4 style="text-align: center;">What is RPA ?</h4>
+            <p style="color: gray;">
+              Digital transformation has become one of the major focus areas of the businesses in recent times. It is the process of using digital technologies to create new or modify existing business processes, culture, and customer experiences to meet changing business and market requirements. In the race to outpace digital transformation, Robotic Process Automation (RPA) is often heralded as a quick and easy way to streamline critical processes, often extending the life of legacy systems.
+            </p>
+          </li>
+          <li>
+            <p style="color: gray;">
+              RPA provides the human workforce the chance to use their ingenuity, creativity, empathy, and collaboration. The chance to bring their unique human value to the fore.
+            </p>
+          </li>
+          <li>
+            <p style="margin-top: 30px; color: gray;">
+              NASSCOM FutureSkills collaborates with Automation Anywhere to reskill professionals as well as the students. Both the organizations plan to build together a blended learning program with hands-on exposure to the cutting-edge Robotic Process Automation tool for the students in India.
+            </p>
+          </li>
+          <li>
+            <p style = "color: gray;">
+              Every student will receive access to Automation Anywhere A2019 Community Edition to work on industry’s first cloud-native RPA to develop the bots.
+            </p>
+          </li>
+          <li>
+            <p style = "color: gray;">
+              <strong>Examly</strong> supports National Botathon 2020 by providing the online platform for the participants.
+            </p>
+          </li>
+        </ul>
+        <!-- <h5>India’s very first RPA Hackathon at a national level, organized by NASSCOM in association with Automation Anywhere.</h5>
+      <h5>India’s first Cloud Native RPA Hackathon for Academia, based on Automation Anywhere Enterprise A2019 Community Edition to bring scale and support social distancing during Covid 19.</h5>
+      <h5>Participants to receive academic credits provided by AICTE to make National Botathon 2020 as part of regular & mainstream academics.</h5>
+      <h5>Industry oriented use cases to be provided to the students to make the utilization of Robotic Process Automation real.</h5>
+      <h5>Webinar sessions to be conducted by Automation Anywhere SMEs to bring clarity on Industry use of RPA – focus on blended learning.</h5>
+      <h5>All the Bots submitted by the students will be evaluated by an Evaluator Bot, no dependency on human evaluators/SMEs – saving time, resource and scaling up the possibilities.</h5>
+      <h5>Access to A People Community – to share information, follow topics & find solution run by socially connected professionals across the globe.</h5>
+      <h5>Bot Aspirant Badge A2019 & Co-branded Certificates issued by NASSCOM on completion.</h5> -->
+      </div>
+      
+    </div>
+  </div>
+<!-- carousel -->
+<div class="announcement" id="announcement">
+  <h2 class="text-center" id="announcementtitle" style="text-transform: uppercase;margin-top:20px;color: white;">Awards to be Won</h2>
+</div>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-top:10px;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/blur5.png">
+    </div>
+    <div class="item">
+      <img src="images/blur4.png">
+    </div>
+    <div class="item">
+      <img src="images/blur3.png">
+    </div>
+    <div class="item">
+      <img src="images/withtext.png">
+    </div>
+    <div class="item">
+      <img src="https://unsplash.it/1400/600?image=401">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<script>
+  $(".carousel").swipe({
+
+swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+if (direction == 'left') $(this).carousel('next');
+if (direction == 'right') $(this).carousel('prev');
+
+},
+allowPageScroll:"vertical"
+
+});
+</script>
+<div class="faq" id="faq"  style="background-color: whitesmoke; padding-top: 25px;">
+  <h2 class="text-center"id="faqtitle" style="color: navy;">Check Faqs</h2>
+  <br>
+      <div class="container">
+        <ul style="list-style: none;">
+                <li class="faq-articles active">
+                  <p class=faq-title>Who can participate in this Botathon? </p>
+                  <div class=faq-content>
+                    <p>
+                      Any student undergoing Under-Graduate / Post-Graduate Degree / Diploma Program from any Institute in India. Students from any stream of Engineering, Non-Engineering Degree colleges, Diploma , Business Schools can join the program.  
+                    </p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>
+                    I am a student from Non-Computer Science background. Can I still join?
+                  </p>
+                  <div class=faq-content>
+                    <p>
+                      Yes, you can join.  
+                    </p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>I am a student from Non-Engineering stream. Can I still join?</p>
+                  <div class=faq-content>
+                    <p>Yes, you can join.</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>Is there an entry fee?</p>
+                  <div class=faq-content>
+                    <p>No, there is no fee or payment</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>Shall I get Academic Credits for joining Botathon 2020?</p>
+                  <div class=faq-content>
+                    <p>The competition has 45 to 60 Hrs of Practical components with mentor support and Certificate at the end of the completion – Qualifies for 1 to 1.5 Credit as per AICTE guidelines.</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>Shall I get a digital badge for joining Botathon ? At which stage?</p>
+                  <div class=faq-content>
+                    <p>Yes, every student upon successfully completing Bot Aspirant A2019 e learning course will receive a digital badge from Automation Anywhere, which will be available in your achievement dashboard on Automation Anywhere University portal.</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>How many user id & password do we need to create during National Botathon 2020?</p>
+                  <div class=faq-content>
+                    <p>Every participant needs to create two sets of User Name & Password<br>  
+                        Botathon Platform on Examly User Profile and Account<br>  
+                        Automation Anywhere University Platform for learning completion & multiple choice questions.</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>Where from shall I download the required software?</p>
+                  <div class=faq-content>
+                    <p>Automation Anywhere A2019 software can be accessed from the following URL: <br> 
+                      https://www.automationanywhere.com/products/enterprise/community-edition .</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>Where can I find relevant technical resources?</p>
+                  <div class=faq-content>
+                    <p>
+                      Bot Aspirant A2019 Learning Access <br>  
+                      https://university.automationanywhere.com/rpa-learning-trails/bot-aspirant/ <br>
+                      Online Software<br> 
+                      https://www.automationanywhere.com/products/enterprise/community-edition/
+                      </p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>Do I need to form a team?</p>
+                  <div class=faq-content>
+                    <p>No , this is for individual participants , hence you need not to form any team.</p>
+                  </div>
+                </li>
+                <li class=faq-articles>
+                  <p class=faq-title>What if I have other questions?</p>
+                  <div class=faq-content>
+                    <p>Send us an email at <a href="mailto:sample@gmail.com">sample@gmail.com</a> and
+                      we’ll get back to you as soon as possible.</p>
+                  </div>
+                </li>
+              </ul>
+      </div>
+      
+
+      <script src="/javascripts/livequery-24ba4804.js" ></script>
+      <script src="/javascripts/validations-06b9086d.js" ></script>
+      <script src="/javascripts/bodymovin-ced3b411.js" ></script>
+      <script src="/javascripts/svg-animation-481a999b.js"></script>
+    </div>
+    <div class="register" id="register" style="background-color:#4052AB; padding-top: 5px;" >
+      <h2 class="registertitle text-center" id="registertitle" style="margin-bottom: 5px; color:white;">Register Here</h2>
+      <iframe width="100%" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=LaVWD-D7j0CBAtfhlN8vpzmUl71XnlVFkGAuQIFzBpRURE80UlhWUUNUSElEOERRWUdEVkZOVjYxVy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+    </div>
+    
+<div class="agenda" id="agenda">
+      <h3 class="text-center" style="text-align: center; color: white;">Agenda</h3>
+      <div class="row text-center">
+        <div class="col-md-4 col-xs-12 text-center" >
+          <div class="day-container" style="background-color: whitesmoke;border-radius: 10px;">
+            <img src="images/day 1.png" class="calendar" alt="Day 1" width="60px" height="60px">
+            <h5 class="agenda-text">Sample Date</h5>
+            <p> <strong>9.00 AM  :</strong> Sample</p>
+            <p> <strong>12.00 PM :</strong> Sample</p>
+            <p> <strong>2.00 PM  :</strong> Sample</p>
+            <p> <strong>4.00 PM  :</strong> Sample</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center" >
+          <div class="day-container" style="background-color: whitesmoke;border-radius: 10px;">
+            <img src="images/day 2.png" class="calendar" alt="Day 1" width="60px" height="60px">
+            <h5 class="agenda-text">Sample Date</h5>
+            <p> <strong>9.00 AM  :</strong> Sample</p>
+            <p> <strong>12.00 PM :</strong> Sample</p>
+            <p> <strong>2.00 PM  :</strong> Sample</p>
+            <p> <strong>4.00 PM  :</strong> Sample</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-12 text-center" >
+          <div class="day-container"  style="background-color: whitesmoke;border-radius: 10px;">
+            <img src="images/day3.png" class="calendar" alt="Day 1" width="60px" height="60px">
+            <h5 class="agenda-text">Sample Date</h5>
+            <p> <strong>9.00 AM  :</strong> Sample</p>
+            <p> <strong>12.00 PM :</strong> Sample</p>
+            <p> <strong>2.00 PM  :</strong> Sample</p>
+            <p> <strong>4.00 PM  :</strong> Sample</p>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="News" style="background-color:wheat; padding-top: 10px;">
+  <h3 class="text-center" style="text-align: center; color: black;" id="News">Announcements</h3>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <div class="alert-message alert-message-success">
+                <h4>
+                    Announcement 1</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="alert-message alert-message-danger">
+                <h4>
+                  Announcement 2</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. For performance
+                    reasons, the Tooltip and Popover data-apis are opt-in, meaning strong message.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <div class="alert-message alert-message-warning">
+                <h4>
+                  Announcement 3</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="alert-message alert-message-info">
+                <h4>
+                  Announcement 4</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. For performance
+                    reasons, the Tooltip and Popover data-apis are opt-in, meaning strong message.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+        <script src="/javascripts/all-7ebff045.js"></script>
+        <script>
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+              'gtm.start': new Date().getTime(),
+              event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-59TQJFM');
+        </script>
+        <script>
+          (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+          })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      
+          ga('create', 'UA-48137190-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <script>
+          (function (o) {
+            var b = "https://api.autopilothq.com/anywhere/",
+              t = "2c290bf83da74f158a97e0b64e65df3e234444a92a18430c982f592f1bd7ce80",
+              a = window.AutopilotAnywhere = {
+                _runQueue: [],
+                run: function () {
+                  this._runQueue.push(arguments);
+                }
+              },
+              c = encodeURIComponent,
+              s = "SCRIPT",
+              d = document,
+              l = d.getElementsByTagName(s)[0],
+              p = "t=" + c(d.title || "") + "&u=" + c(d.location.href || "") + "&r=" + c(d.referrer || ""),
+              j = "text/javascript",
+              z, y;
+            if (!window.Autopilot) window.Autopilot = a;
+            if (o.app) p = "devmode=true&" + p;
+            z = function (src, asy) {
+              var e = d.createElement(s);
+              e.src = src;
+              e.type = j;
+              e.async = asy;
+              l.parentNode.insertBefore(e, l);
+            };
+            if (!o.noaa) {
+              z(b + "aa/" + t + '?' + p, false)
+            };
+            y = function () {
+              z(b + t + '?' + p, true);
+            };
+            if (window.attachEvent) {
+              window.attachEvent("onload", y);
+            } else {
+              window.addEventListener("load", y, false);
+            }
+          })({});
+        </script> 
+</body>
+</html>

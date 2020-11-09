@@ -1,0 +1,305 @@
+body{
+    scroll-behavior: smooth;
+    background-color: #141029;
+}
+.logo{
+    width: 200px;
+    height: 75px;
+}
+.starter{
+    background: linear-gradient(240deg,#141029,black);
+    /*background-image: url(images/background3.jpg); */
+    background-size: cover;
+    /* background-color:white; */
+}
+#title
+{
+    margin-top: 100px;
+}
+#title,
+#abouttitle,
+#announcementtitle,
+#faqtitle,
+#registertitle
+    {
+        color: whitesmoke;
+    }
+#logo-container{
+    margin-bottom: 130px;
+}
+/* #6F00FF purple*/
+/* #7DF9FF green */
+.content{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+li a h6{
+    color: whitesmoke;
+}
+li a h6:hover{
+    color: #cd0695;
+}
+@media only screen and (max-width: 767px) {
+    #logo{
+        margin-bottom: 25px;
+    }
+    #title,
+    #abouttitle,
+    #registertitle
+    {
+        margin-top: 0;
+        font-size: x-large;
+    }
+    h2{
+        font-size: x-large;
+    }
+}
+.faq-container {
+    color: #ffffff;
+    background-color: skyblue;
+    border: solid 1px rgba(174, 117, 201, 0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px
+  }
+  
+  .faq-container h3 {
+    font-size: 24px;
+    color: #666666;
+    padding: 10px 0;
+    font-weight: 400
+  }
+  
+  .faq-container h3 .faq-link {
+    margin-left: 10px;
+    color: black;
+    cursor: pointer
+  }
+  
+  .faq-container h3 .faq-link:hover {
+    color: black;
+  }
+  
+  .faq-list {
+    max-width: 720px;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px
+  }
+  
+  .faq-articles {
+    color: black;
+    font-weight: 500;
+    margin: 25px 0;
+    padding-left: 30px;
+    position: relative;
+    cursor: pointer
+  }
+  
+  .faq-articles:before {
+    content: '?';
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    background-color:lightseagreen
+  }
+  
+  .faq-articles .faq-content {
+    display: none;
+    cursor: default;
+    margin-top: 5px;
+    padding: 10px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background-color: white
+  }
+  
+  .faq-articles .faq-content p {
+    color: #666666;
+    line-height: 1.43;
+    font-weight: 400
+  }
+ /* .agenda-container {
+    background-color:none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff
+  }
+  
+  .agenda-container h3 {
+    font-weight: 400
+  }
+  
+  .agenda-wrapper {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    padding: 30px 15px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.17)
+  }
+  
+  .agenda-wrapper:last-child {
+    margin-right: 0
+  }
+  
+  .agenda-wrapper .agenda-day {
+    margin: 0;
+    padding: 3px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.1)
+  }
+  
+  .agenda-list {
+    margin: 0 0 1em
+  }
+  
+  .agenda-list:before {
+    content: ' ';
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    top: 20px;
+    left: 63px;
+    background: #9d9d9d;
+    border-radius: 50%;
+    background-color: #ae75ca
+  }
+  
+  .agenda-list .agenda-time {
+    float: left;
+    margin: 0 25px 0 0;
+    overflow: hidden;
+    position: relative;
+    top: 10px
+  }
+  
+  .agenda-list .agenda-body {
+    overflow: hidden;
+    position: relative;
+    top: 10px
+  }
+  
+  .agenda-list .text {
+    padding: 0 10px
+  }
+  
+  .agenda-list .text p {
+    margin: 0
+  }
+  
+  .agenda-list,
+  .comments {
+    position: relative
+  }
+  
+  .agenda-list .text:before,
+  .comments:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 65px
+  }  */
+  .calendar{
+      margin-top: 15px;
+  }
+  .alert-message
+{
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 3px solid #eee;
+}
+.alert-message h4
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.alert-message p:last-child
+{
+    margin-bottom: 0;
+}
+.alert-message code
+{
+    background-color: #fff;
+    border-radius: 3px;
+}
+.alert-message-success
+{
+    background-color: #F4FDF0;
+    border-color: #3C763D;
+}
+.alert-message-success h4
+{
+    color: #3C763D;
+}
+.alert-message-danger
+{
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+}
+.alert-message-danger h4
+{
+    color: #d9534f;
+}
+.alert-message-warning
+{
+    background-color: #fcf8f2;
+    border-color: #f0ad4e;
+}
+.alert-message-warning h4
+{
+    color: #f0ad4e;
+}
+.alert-message-info
+{
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+.alert-message-info h4
+{
+    color: #5bc0de;
+}
+.alert-message-default
+{
+    background-color: #EEE;
+    border-color: #B4B4B4;
+}
+.alert-message-default h4
+{
+    color: #000;
+}
+.alert-message-notice
+{
+    background-color: #FCFCDD;
+    border-color: #BDBD89;
+}
+.alert-message-notice h4
+{
+    color: #444;
+}
